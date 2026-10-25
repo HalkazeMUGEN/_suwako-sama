@@ -1,0 +1,565 @@
+;
+;  書き換え厳禁
+;
+; DO NOT REWRITE
+;
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[Info]
+name         = "l_suwako-sama"				; 内部名称
+displayname  = "Z v vv 4 |< () $ /\ AA /\"	; 表示名称
+author       = "Halkaze"					; 制作者名
+pal.defaults = 1							; サバイバルで出現するカラー
+
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[Files]
+cns      = _suwako-sama.def		; cns定義ファイル
+cmd      = _suwako-sama.def		; cmd定義ファイル
+st       = Sys/000.cns			; st定義ファイル０（-1, -2, -3, -4, -5, -6, -7, -8）
+st0      = Sys/001.cns			; st定義ファイル１（-9）st1      = Sys/002.cns			; st定義ファイル２（-10,-11,-12,-13,-14,-15）
+stcommon = 						; common定義ファイル
+sprite   = Res/suwako.sff		; sprite定義ファイル
+anim     = _suwako-sama.def		; anim定義ファイル
+pal1     = 
+
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[Data]
+life=1000
+power=3000
+attack=100
+defence=100
+fall.defence_up=100
+liedown.time=0
+airjuggle=15
+sparkno=-1
+guard.sparkno=-1
+KO.echo=0
+volume=255
+IntPersistIndex=60
+FloatPersistIndex=40
+[Size]
+xscale=1
+yscale=1
+ground.back=1
+ground.front=1
+air.back=1
+air.front=1
+height=1
+attack.dist=1
+proj.attack.dist=1
+proj.doscale=0
+head.pos=0,0
+mid.pos=0,0
+shadowoffset=0
+draw.offset=0,0
+[Velocity]
+walk.fwd=0
+walk.back=0
+run.fwd=0,0
+run.back=0,0
+jump.neu=0,0
+jump.back=0
+jump.fwd=0
+runjump.back=0,0
+runjump.fwd=0,0
+airjump.neu=0,0
+airjump.back=0
+airjump.fwd=0
+[Movement]
+airjump.num=0
+airjump.height=0
+yaccel=1
+stand.friction=1
+crouch.friction=1
+[Command]
+name="start"
+command=s
+time=1
+
+[Statedef 0]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 10]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 11]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 12]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 20]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 40]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 45]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 50]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 51]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 52]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 100]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 101]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 105]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 106]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 120]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 130]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 131]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 132]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 140]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 141]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 150]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 151]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 152]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 153]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 154]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 155]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 170]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 175]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 180]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 190]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 5000]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 5001]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 5010]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 5011]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 5020]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 5030]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 5035]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 5040]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 5050]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 5070]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 5071]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 5080]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 5081]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 5100]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 5101]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 5110]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 5120]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 5150]
+[State ]
+type=ChangeAnim
+trigger1=1
+value=0
+ignorehitpause=1
+[Statedef 5200]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 5201]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 5210]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 5500]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Statedef 5900]
+[State ]
+type=SelfState
+trigger1=1
+value=5150
+persistent=256
+ignorehitpause=1
+[Begin Action 0]
+ 0,0,0,0,1
+[Begin Action 10]
+ 0,0,0,0,1
+[Begin Action 11]
+ 0,0,0,0,1
+[Begin Action 12]
+ 0,0,0,0,1
+[Begin Action 20]
+ 0,0,0,0,1
+[Begin Action 21]
+ 0,0,0,0,1
+[Begin Action 40]
+ 0,0,0,0,1
+[Begin Action 41]
+ 0,0,0,0,1
+[Begin Action 42]
+ 0,0,0,0,1
+[Begin Action 43]
+ 0,0,0,0,1
+[Begin Action 47]
+ 0,0,0,0,1
+[Begin Action 100]
+ 0,0,0,0,1
+[Begin Action 105]
+ 0,0,0,0,1
+[Begin Action 120]
+ 0,0,0,0,1
+[Begin Action 121]
+ 0,0,0,0,1
+[Begin Action 122]
+ 0,0,0,0,1
+[Begin Action 130]
+ 0,0,0,0,1
+[Begin Action 131]
+ 0,0,0,0,1
+[Begin Action 132]
+ 0,0,0,0,1
+[Begin Action 140]
+ 0,0,0,0,1
+[Begin Action 141]
+ 0,0,0,0,1
+[Begin Action 142]
+ 0,0,0,0,1
+[Begin Action 150]
+ 0,0,0,0,1
+[Begin Action 151]
+ 0,0,0,0,1
+[Begin Action 152]
+ 0,0,0,0,1
+[Begin Action 170]
+ 0,0,0,0,1
+[Begin Action 5000]
+ 0,0,0,0,1
+[Begin Action 5001]
+ 0,0,0,0,1
+[Begin Action 5002]
+ 0,0,0,0,1
+[Begin Action 5005]
+ 0,0,0,0,1
+[Begin Action 5006]
+ 0,0,0,0,1
+[Begin Action 5007]
+ 0,0,0,0,1
+[Begin Action 5010]
+ 0,0,0,0,1
+[Begin Action 5011]
+ 0,0,0,0,1
+[Begin Action 5012]
+ 0,0,0,0,1
+[Begin Action 5015]
+ 0,0,0,0,1
+[Begin Action 5016]
+ 0,0,0,0,1
+[Begin Action 5017]
+ 0,0,0,0,1
+[Begin Action 5020]
+ 0,0,0,0,1
+[Begin Action 5021]
+ 0,0,0,0,1
+[Begin Action 5022]
+ 0,0,0,0,1
+[Begin Action 5025]
+ 0,0,0,0,1
+[Begin Action 5026]
+ 0,0,0,0,1
+[Begin Action 5027]
+ 0,0,0,0,1
+[Begin Action 5030]
+ 0,0,0,0,1
+[Begin Action 5035]
+ 0,0,0,0,1
+[Begin Action 5040]
+ 0,0,0,0,1
+[Begin Action 5050]
+ 0,0,0,0,1
+[Begin Action 5070]
+ 0,0,0,0,1
+[Begin Action 5080]
+ 0,0,0,0,1
+[Begin Action 5100]
+ 0,0,0,0,1
+[Begin Action 5160]
+ 0,0,0,0,1
+[Begin Action 5170]
+ 0,0,0,0,1
+[Begin Action 5110]
+ 0,0,0,0,1
+[Begin Action 5120]
+ 0,0,0,0,1
+[Begin Action 5200]
+ 0,0,0,0,1
+[Begin Action 5210]
+ 0,0,0,0,1
+[Begin Action 5300]
+ 0,0,0,0,1

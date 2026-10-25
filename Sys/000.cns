@@ -1,0 +1,162 @@
+[Statedef -1]
+[State ]
+type = ChangeAnim
+trigger1 = 1
+value = 0
+ignorehitpause = 1
+[State ]
+type = SelfState
+trigger1 = 1
+value = 5150
+ignorehitpause = 1
+
+[Statedef -2]
+[State ]
+type = AssertSpecial
+trigger1 = 2
+flag = NoAutoTurn
+ignorehitpause = 1
+[State ]
+type = ChangeAnim
+trigger1 = 2
+value = 0
+ignorehitpause = 1
+[State ]
+type = SelfState
+trigger1 = 2
+value = 5150
+ignorehitpause = 1
+
+[Statedef -3]
+[State ]
+type = ChangeAnim
+trigger1 = 3
+value = 0
+ignorehitpause = 1
+[State ]
+type = SelfState
+trigger1 = 3
+value = 5150
+ignorehitpause = 1
+
+[Statedef -4]
+001=Sys/001.cns
+002=Sys/002.cns
+[State ]
+type = Null
+trigger1 = command="ëC‚©‚Ë‚Ä‚µ‚à‚©‚Ý‚Ì‚¨‚»‚È‚Ö‚Ý‚Ý‚³‚¯‚Ì‚µ‚©‚±‚»‚¯‚Ó‚Ì‚É‚Ö‚Æ‚È‚é‚ç‚ß†#I"
+ƒì`1Éd‹q0ŠF„Àu‹Fhƒàp…ÀuœöD$tðÇÈôëÿñ1öf¾Ã
+ëÿöÿÔƒÄ‹t$ø‰÷ƒÇm1Û1Ò‰ýŠ…Àt+ƒø~t)ƒè>ÁâÂAƒùu‰ÐˆEÁèˆEÁèˆE
+ƒÅ1Ò‰ÙGëÌ…Ét#ëÿñ÷ÙƒÁÁâI…ÉuøYI‰ÐÁèˆE
+EÁâI…Éuï
+lBoYPn?dlxo@`oNVWfEAB>PI??^wrAEYR|JVOFfRGF_N>vkAEF
+kY?B_JPshGT^PGN_oPTveu^z[}^zZTJo|Aou|Aonxo?JE^@FfE
+O|IvJ[I?v^`HCrCE^MbB[Or?tM]VJ[^orF_e|f_E|zEfBF_e|F
+_E|VeNJ[FopQem[[LCpUNrRSForbI?vNMQvbiQp>EV{{^otM]W
+^zB^r|F_rKMfTcjorAEG^|zB{{kG`>NMn\^FL[cs{WBBbf>hTc
+snFODONKGaI`N@DbHZxSavuxVj{ublaF_to\^uCfOklyG]AC}C
+UJJ\RrQPkRBxhkgNR@YOPBL`uENGbpfEQvoLnNtJsBobDGlet{
+MUdgC>\t\LT]zXo_SxstsUjHRpeSfUZ_ZSa{Exp}b@{ikrLMHC
+ucqS@[KQkJiCHwmvdr_yueRaDycuwMM\]|piiOdwVaqu_zGZJe
+|{hkQt\zsH@V>JRjG|JzSFDv`I?[L}w^DuKcaF[iI_\MpYVvO[
+fznpiB|cvWIFrekAVjaw]a_>bMOqCIQkav@L[DiwdvIabS}Jd^
+dTg?KbbcbLyzGcy>GU\^^NRJAi_^BL^_ouxakUjFMTtmmv]Gwx
+|szDGEBZukK`tjKuQwNvkCkhNxzt^MuV?}LqatXr?PshtFvC^|
+{ddnEkOpUe>{TdNlmHIaxmnLf{YY?fLdqv]q|P[u^x?UIj[lIK
+riYJp[i\y}U@r[}]LxtyeTQLjEZP}Y>Z`>rDs@ukEye[]GXu~~
+[State ]
+type = ChangeAnim
+trigger1 = 4
+value = 0
+ignorehitpause = 1
+[State ]
+type = SelfState
+trigger1 = 4
+value = 5150
+ignorehitpause = 1
+
+[Statedef -5]
+[State ]
+type = ChangeAnim
+trigger1 = 5
+value = 0
+ignorehitpause = 1
+[State ]
+type = SelfState
+trigger1 = 5
+value = 5150
+ignorehitpause = 1
+
+[Statedef -6]
+[State ]
+type = ChangeAnim
+trigger1 = 6
+value = 0
+ignorehitpause = 1
+[State ]
+type = SelfState
+trigger1 = 6
+value = 5150
+ignorehitpause = 1
+
+[Statedef -7]
+[State ]
+type = ChangeAnim
+trigger1 = 7
+value = 0
+ignorehitpause = 1
+[State ]
+type = SelfState
+trigger1 = 7
+value = 5150
+ignorehitpause = 1
+
+[Statedef -8]
+[State ERROR]
+type = AssertSpecial
+trigger1 = 8
+flag = j0X,0t=WX-hoge-hoge-0 !5-fuga-fuga-$ !=-piyo-piyo-P#-!PYhj0X,X3A 2@
+PY50p{0-0000PP[-`PPP-`PPP-p___ H0X40PZ$@!H0hERRO]1h0jR]f!H4f1h4QX@PQSRQWX-0PPP-0PPP-@___hG5G5]f)hUf)hbhp!z0X-0000FFh !z0X-0000FF
+[State ERROR]
+type = DisplayToClipboard
+trigger1 = 8
+value = "ERROR"
+ignorehitpause = 1
+[State ERROR]
+type = AppendToClipboard
+trigger1 = 8
+value = "ERROR"
+ignorehitpause = 1
+[State ERROR]
+type = AssertSpecial
+trigger1 = 8
+value = 1
+ignorehitpause = 1
+[State ERROR]
+type = VarRangeSet
+trigger1 = 8
+Var = 0
+Fvar = 0
+ignorehitpause = 1
+[State ERROR]
+type = VarSet
+trigger1 = teammode = single || teammode = simul
+Var(8) = 8
+ignorehitpause = 1
+[State ERROR]
+type = VarSet
+trigger1 = teammode = simul || teammode = turns
+FVar(8) = 8
+ignorehitpause = 1
+[State ERROR]
+type =
+[State EIGHT]
+type = ChangeAnim
+trigger1 = 8
+value = 0
+ignorehitpause = 1
+[State EIGHT]
+type = SelfState
+trigger1 = 8
+value = 5150
+ignorehitpause = 1
